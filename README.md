@@ -52,8 +52,30 @@
 
 #### Looking at the features below it appears that customer service calls, day charge, and international plan have the biggest impact
 
-<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/GB_features_graph.png" width="700" height="750">
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/GB_features_graph.png" width="950" height="750">
 
+
+
+
+
+## XG Boost: 
+### Same as abobe, I tested a few ranges across a few parramaters resulting in some small improvments
+### I built a table comparing this new XG boost model to the initial one, as well as, to the same baseline (KNN)
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/xgBoost_tuned_table.png" width="700" height="450">
+
+### Additionally, vizualizations of the accuracy and recall tests are below
+
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/xgBoost_tuned_graph_acc.png" width="600" height="450">
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/xgBoost_tuned_graph_recall.png" width="600" height="450">
+
+### The new XG Boost model outperforms the intial in all metrics between 0.03 and 0.12 and gets closer to its training data metrics
+
+#### Looking at the features below it appears that international plan, voicemail plan, and Tennessee have the biggest impact
+
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/xgBoost_tuned_feature_graph.png" width="950" height="750">
+
+# Secondary Analysis 
+## Account Length modeling
 
 
 

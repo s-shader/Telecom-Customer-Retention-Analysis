@@ -50,9 +50,10 @@
 
 ### The new Gradient Boost model outperforms the intial in all metrics between 0.06 and 0.13 and gets closer to its training data metrics
 
-#### Looking at the features below it appears that international plan, voicemail plan, and Tennessee have the biggest impact
+#### Looking at the features below it appears that customer service calls, day charge, and international plan have the biggest impact
 
-<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/GB_features_graph.png" width="700" height="800">
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/GB_features_graph.png" width="700" height="750">
+
 
 
 

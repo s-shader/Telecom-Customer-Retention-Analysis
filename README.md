@@ -37,3 +37,14 @@
 
 # Final Models
 ## Given the prior results I chose to focus on Gradient boost and XG Boost models.
+
+## Gradient Boost: 
+### Using gridsearch I tested a few ranges across a few parramaters resulting in some improvments
+### I, again, built a table comparing this new gradient boost model to the initial one, as well as, to a baseline (KNN)
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/gradient_boost_tunedTable.png" width="700" height="450">
+
+
+
+
+
+

@@ -40,8 +40,12 @@
 
 ## Gradient Boost: 
 ### Using gridsearch I tested a few ranges across a few parramaters resulting in some improvments
-### I, again, built a table comparing this new gradient boost model to the initial one, as well as, to a baseline (KNN)
+### I built a table comparing this new gradient boost model to the initial one, as well as, to a baseline (KNN)
 <img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/gradient_boost_tunedTable.png" width="700" height="450">
+### Additionally, vizualizations of the accuracy and recall tests are below
+
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/gradBoost_tuned graph_acc.png" width="600" height="450">
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/gradBoost_tuned graph_recc.png" width="600" height="450">
 
 
 

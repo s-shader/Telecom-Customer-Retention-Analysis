@@ -83,11 +83,11 @@
 ### Since this only works for customers with a defined account length I could only test closed accounts
 ### As can bee seen below there were no strong correlations with any of the other variables
 
-<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/account_leng_corrTable" width="550" height="350">
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/account_leng_corrTable.png" width="550" height="350">
 
 ### When graphing it, however, some states appear to only have accounts longer than average, or the opposite (see below)
 
-<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/IA_lenght" width="550" height="350">
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/IA_lenght.png" width="550" height="350">
 
 # Conclusion
 

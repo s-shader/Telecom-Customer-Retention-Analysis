@@ -24,10 +24,12 @@
 # Initial Models
 ## I built a base function to calculate all of the initial models and output the results in a dataframe. 
 <img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/init_models.png" width="700" height="450">
+
 * Focusing on accuracy and recall Gradient boost and XG Boost performed the best
 * I focused on these two because false negatives were not very concerning
 * Aditionally, KNN and Decision Tree did not test well and look to have overtrained 
+
 ## Looking at it visually:
 ### I constructed a faux confusion matrix with each model and its metric train and test scores 
-<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/fake_con_matrix.png" width="800" height="800">
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/fake_con_matrix.png" width="800" height="900">
 

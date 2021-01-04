@@ -48,9 +48,9 @@
 <img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/gradBoost_tuned graph_acc.png" width="600" height="450">
 <img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/gradBoost_tuned graph_recc.png" width="600" height="450">
 
-### The new Gradient Boost model outperforms the intial in all metrics between 0.06 and 0.13 and gets closed to its training data
+### The new Gradient Boost model outperforms the intial in all metrics between 0.06 and 0.13 and gets closer to its training data metrics
 
-
+##### test test test  -- GB_features - GB_features_graph
 
 
 

@@ -13,9 +13,15 @@
 <img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/data_columns.png" width="200" height="350">
 
 # EDA
-### I converted 'State' and 'area code' to dummies and I dropped 'phone number.' 
-### 2,850 out of 3300 Churn observations are False
-### None of the data is very correlated with Churn (aside from churn itself)
-<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/churn_corr.png" width="200" height="350">
+* I converted 'State' and 'area code' to dummies and I dropped 'phone number' 
+* 2,850 out of 3300 Churn observations are False
+* None of the data is very correlated with Churn (aside from churn itself)
+* Some of the X variable are highly correlated with eachother (I dropped the most correlated variables) 
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/churn_corr.png" width="550" height="350">
 
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/correlation_graph.png" width="450" height="950">
+
+# Initial Models
+## I built a base function to calculate all of the initial models and output the results in a dataframe. 
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/init_models.png" width="550" height="400">
 

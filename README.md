@@ -8,9 +8,7 @@
 ### CSV table of cusmtomer churn (if they left) and deatures about their accounts.
 ### https://www.kaggle.com/becksddf/churn-in-telecoms-dataset
 ### Columns:
-![alt text](https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/Images.png)
-
-
+![alt text](https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/data_columns.png)
 
 
 

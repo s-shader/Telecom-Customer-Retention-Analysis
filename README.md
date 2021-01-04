@@ -77,6 +77,37 @@
 # Secondary Analysis 
 ## Account Length modeling
 
+### Since the presumed goal, in analyzing churn data is to keep customers, I ran a short secondary analysis looking at if customer left early or later than the average customer
+
+### I started by creating a new binary variable: 1 if the custumer stayed longer than average, 0 if they didn't
+### Since this only works for customers with a defined account length I could only test closed accounts
+### As can bee seen below there were no strong correlations with any of the other variables
+
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/account_leng_corrTable" width="550" height="350">
+
+### When graphing it, however, some states appear to only have accounts longer than average, or the opposite (see below)
+
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/IA_lenght" width="550" height="350">
+
+# Conclusion
+
+### My final final 2 models predict outcomes with an accuracy of 0.95 and 0.96 hinting that they should be taken at least somewhat seriously. They also have recall scores of 0.82 and 0.85 which is important since falls negatives mean a customer left when we expected them to stay. On the other hand false positives are much less significant i.e. bottom line the customer stays.
+
+### In interpreting the models number of customer service calls, international plan, and voicemail plan, all rank in the top 5 features both.
+
+### Given this, the telecom company should portably invest in their customer services. Interaction plans are also slightly correlated with customers leaving and customers in Tennessee are the most significant location so they should focus domestically. It is also worth improving and pushing their voicemail plans.
+
+### Additionally, my secondary analysis, although limited, showed that they do best in RI, NM, LA and worst in IA.
+
+### It is worth noting that some of these conclusions are using a limmitted sample size and should be reevaluated if implemented.
+
+
+# Future work
+
+### Additional tuning could help increase the accuracy of my models and increase confidence in my conclusions. There was also limited data for customers that left so getting more information on customers who left. It would also be potentially heplfull to get more information on the customers i.e. potentially more specific demographic data.
+
+
+
 
 
 

@@ -31,5 +31,9 @@
 
 ## Looking at it visually:
 ### I constructed a faux confusion matrix with each model and its metric train and test scores 
-<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/fake_con_matrix.png" width="800" height="900">
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/fake_con_matrix.png" width="800" height="880">
+### Focusing more on the test results, I also constructed a vizual that more focus
+<img src="https://github.com/s-shader/Telecom-Customer-Retention-Analysis/blob/main/Images_telecomAnalysis/fake_con_matrix_test" width="550" height="700">
 
+# Final Models
+## Given the prior results I chose to focus on Gradient boost and XG Boost models.
